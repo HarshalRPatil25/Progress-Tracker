@@ -51,3 +51,38 @@ Delete Progress
 
 DELETE /progress/deleteprogress/{id}/{username}
 Response: Status message indicating whether the progress was removed successfully or if there was an error.
+
+
+## Installation and Setup
+ 
+ ### Clone the Repository
+
+```
+git clone https://github.com/yourusername/progress-tracker.git
+
+```
+
+### Navigate to the Project Directory
+
+```
+cd progress-tracker
+
+```
+
+### Install Dependencies Use Maven or Gradle to install the required dependencies:
+
+```
+mvn install  # or ./gradlew build
+
+```
+
+Configure MongoDB Ensure MongoDB is installed and running. Configure the connection details in the application.properties or application.yml file as needed.
+
+### Run the Application
+
+
+```mvn spring-boot:run  # or ./gradlew bootRun```
+
+### Configuration
+Database Configuration: Set up MongoDB connection details in the src/main/resources/application.properties or application.yml file.
+Security Configuration: Adjust security settings as needed based on your requirements.
